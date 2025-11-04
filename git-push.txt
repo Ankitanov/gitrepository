@@ -1,0 +1,37 @@
+Steps involved in creating a git hub 
+repository and pusing 
+
+Initializing:
+git init
+
+cloning a repository:
+git clone <link>
+
+Configuration:
+git config --global user.name "user ID"
+git config --global user.email "user email"
+
+Create files:
+1 method:
+echo "hello git hub" > hello.txt
+
+2 method:
+touch hey.txt
+nano hey txt
+---> in nano terminal add text 	
+	control S to save 
+	control X to exit
+
+git status
+
+Adding into git:
+Adding one file--
+	git add hello.txt
+Additing multiple files--
+	git add .
+
+Commiting changes:
+git commit -m "version"
+
+Pushing intp github:
+git push origin main
